@@ -1,0 +1,196 @@
+* {
+    margin:0% ;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yMDktYWRqLTEyXzEuanBn.jpg);
+}
+
+:root {
+    --main_color: navy;
+    --secondary_color : purple ;
+}
+
+.part1 {
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    
+}
+
+.part1 a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+.part2 {
+    padding-top: 50px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    padding: 20px;
+}
+
+.part2 img {
+    width: 100%;
+}
+
+.planet_1 {
+    display: flex;
+
+    .planet_img {
+        width: 40%;
+    }
+
+    .planet_info {
+        width: 60%;
+
+        h1 {
+            font-size: 4em;
+            padding-top: 8vh;
+            color: white;
+        }
+
+        .div {
+            text-align: justify;
+            color: white;
+            border: 100px;
+            padding: 50px;
+            font-weight: bold;
+            font-size: larger;
+        }
+    }
+}
+
+
+.part3 {
+    padding-top: 50px;
+    text-align: center;
+    background-color: rgb(19, 19, 133);
+    color: aliceblue;
+    padding: 20px;
+    width: 101.4%;
+    height: 60px;
+    padding-bottom: 0px;
+}
+
+.logo2 {
+    width: 100px;
+    height: 100px;           
+    display: inline-block;
+    border-radius: 50px;
+
+}
+
+img {
+    width: 100%;
+}
+
+hr {
+    margin:7vh 0 ;
+}
+
+.planet_4{
+    display: flex;
+
+    .planet_img {
+        width: 40%;
+    }
+
+    .planet_info {
+        width: 60%;
+
+        h1 {
+            font-size: 4em;
+            padding-top: 8vh;
+        }
+
+        .div {
+            text-align: justify;
+            color: white;
+            border: 100px;
+            padding: 50px;
+            margin-bottom: 8%;
+            font-weight: bold;
+            font-size: larger;
+        }
+    }
+}
+
+video{
+    width: 100%;
+    height: auto;
+    
+}
+
+/* Basic styling */
+body {
+}
+
+.dropdown-section {
+    width: 300px;
+}
+
+.dropdown-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    font-size: 18px;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown-btn:hover {
+    background-color: #45a049;
+}
+
+.arrow {
+    font-size: 18px;
+    transition: transform 0.3s ease;
+}
+
+.dropdown-content {
+    max-height: 0;
+    overflow: auto;
+    background-color: #000000;
+    padding: 0 18px;
+    opacity: 0;
+}
+
+.dropdown-content p {
+    margin: 15px 0;
+}
+
+/* Animation for showing the content */
+.dropdown-section.active .dropdown-content {
+    max-height: 500px;
+    opacity: 1;
+}
+
+.dropdown-section.active .arrow {
+    transform: rotate(180deg);
+    /* Rotate arrow */
+}
+
+body {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}

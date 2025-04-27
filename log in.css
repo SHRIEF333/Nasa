@@ -44,7 +44,7 @@ body {
     background-color: #0056b3;
 }
 body{
-    background: url("Images/background.jpg");
+    background: url("background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     opacity:calc();

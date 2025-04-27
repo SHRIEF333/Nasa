@@ -35,7 +35,7 @@ body{
 
 
 .jobs{
-    background: url(Images/background.png);
+    background: url(background.png);
     padding-bottom: 30%;
     background-position: center;
     border-radius: 20%;
@@ -74,7 +74,7 @@ body{
 }
 
 .jobs2{
-    background: url(Images/job.png);
+    background: url(job.png);
     background-position: center;
     padding-bottom: 30%;
     background-position: center;
